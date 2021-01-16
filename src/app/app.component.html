@@ -48,6 +48,20 @@
           <td>{{arreglo | slice:1:5 }}</td>
         </tr>
 
+        <!-- El pipe decimal se maneja con la propiedad number, asi lo maneja Angular -->
+
+        <tr>
+          <td>{{PI}}</td>
+          <td>Numero: '3.0-0'</td>
+          <td>{{PI | number:'3.0-0'  }}</td>
+        </tr>
+
+        <tr>
+          <td>{{PI}}</td>
+          <td>Numero</td>
+          <td>{{PI | number:'.0-2'  }}</td>
+        </tr>
+
       </tbody>
 
     </table>
