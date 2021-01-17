@@ -11,6 +11,10 @@ export class AppComponent {
 
   nombre2: string = 'fERnaNdo rAmiREZ oBANdo';
 
+  nombre3: string = 'Fernando Ramirez';
+  
+  activar: boolean = true;
+
   arreglo = [1,2,3,4,5,6,7,8,9,10];
 
   PI: number = Math.PI;
