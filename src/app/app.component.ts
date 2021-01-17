@@ -9,7 +9,7 @@ export class AppComponent {
 
   nombre: string = 'Wayne Rooney';
 
-  nombre2: string = 'fERnaNdo rAmiREZ';
+  nombre2: string = 'fERnaNdo rAmiREZ oBANdo';
 
   arreglo = [1,2,3,4,5,6,7,8,9,10];
 
